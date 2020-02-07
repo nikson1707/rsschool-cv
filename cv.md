@@ -1,6 +1,6 @@
 # Nikita Slizhuk Aleksandrovich
 
-
+I’m 17 years old student of the third course College business and law and RS School.
 ## Contact:  
 [Vk.com](https://vk.com/sabotage_mm)  
 [Github](https://github.com/nikson1707)
@@ -60,4 +60,11 @@ namespace Файлы_практика
 ### Experience:
 
 I dont have experience in web programming.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
+### Education: 
+
+11 years of school, two years of studying C++ and C#.
+
+### English
+A2
 
