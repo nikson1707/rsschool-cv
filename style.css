@@ -10,6 +10,15 @@ body{
   font-family: Consolas, Helvetica, sans-serif;
 }
 
+ul{
+  column-count: auto;
+}
+
+li{
+  display: list-item;
+  color: #fcfcfce7;
+}
+
 header{
   display: flex;
   flex-direction: row;
@@ -19,13 +28,49 @@ header{
   height:120px;
   background-color: rgb(48,48,48);
 }
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+a:link{
+  color:#0abe13e7;
+}
+
+a:visited{
+  color: #0abe13e7;
+}
+
+.left-section li{
+  position: relative;
+  left: 10px;
+  list-style-position: inside;
+  list-style: none;
+}
+.left-section #contacts li:nth-child(2n),
+.left-section #languages li:nth-child(2n)
+{
+  padding-bottom: 15px;
+}
+
+.left-section #skills li{
+  list-style: inside;
+}
+
+.left-section #skills ul,
+.left-section #languages ul{
+  column-count: 2;
+}
+
 .my-name{
   align-self: flex-end;
   padding: 6px;
-  font-size: 20px;
+  font-size: 30px;
   font-style: normal;
   color:#ffffff;
+  
 }
+
 .my-photo{
   width: 100px;
   height: 100px;
@@ -33,9 +78,27 @@ header{
   overflow: hidden;
 }
 
-.left-section{
-  width:30%;
-  background-color: rgb(48,48,48);
+.title-of-li{
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  border-bottom: 2px solid #9fd4ff;
+  border-bottom-left-radius: 20px ;
+  border-bottom-right-radius: 20px;
+  color: aqua;
 }
 
+.name-of-element{
+  font-weight: 700 ;
+}
+
+.left-section{
+  width:45%;
+
+  background-color: rgb(48,48,48);
+}
+html{
+  background-color: aqua;
+}
 
