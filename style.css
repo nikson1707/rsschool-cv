@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-image: url(./documents1.jpg);
+  background-size: cover;
+}
+
+body{
+
+  margin: 0 10%;
+  min-width: 400px;
+  font-family: Consolas, Helvetica, sans-serif;
+}
+
+ul{
+  column-count: auto;
+}
+
+li{
+  display: list-item;
+  color: #fcfcfce7;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height:120px;
+  background-color: rgb(48,48,48);
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+a:link{
+  color:#0abe13e7;
+}
+
+a:visited{
+  color: #0abe13e7;
+}
+.my-name{
+  align-self: flex-end;
+  padding: 6px;
+  font-size: 30px;
+  font-style: normal;
+  color:#ffffff;
+
+}
+
+.my-photo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.left-section{
+  width:45%;
+  height:500px;
+  background-color: rgb(48,48,48);
+}
+.left-section li{
+  position: relative;
+  left: 10px;
+  list-style-position: inside;
+  list-style: none;
+}
+.left-section #contacts li:nth-child(2n),
+.left-section #languages li:nth-child(2n)
+{
+  padding-bottom: 15px;
+}
+
+.left-section #skills li{
+  list-style: inside;
+}
+
+.left-section #skills ul,
+.left-section #languages ul{
+  column-count: 2;
+}
+
+.name-of-element{
+  font-weight: 700 ;
+}
+
+.title-right-section{
+  padding: 15px;
+}
+.title-of-li{
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  border-bottom: 2px solid #9fd4ff;
+  border-bottom-left-radius: 20px ;
+  border-bottom-right-radius: 20px;
+  color: aqua;
+}
+
+.console{
+  width: 55%;
+  height: 500px;
+  background-color: rgb(1, 36, 86);
+  font-size: 14px;
+  color: rgb(238, 237, 240);
+  border: 1px solid rgb(66, 62, 62);
+  box-sizing: border-box;
+}
+.console-body{
+  height: 470px;
+  overflow-y: scroll;
+}
+.console-header {
+
+  display: flex;
+  height: 30px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'Segoe UI', 'Arial', serif;
+  font-size: 12px;
+
+  color: black;
+  background-color: white;
+}
+.console-body div{
+  height: 2500px;
+}
+.c-header-name {
+  padding: 0 5px;
+  display: inline-flex;
+}
+.c-header-name div:last-child {
+  padding-left: 3px;
+}
+
+.console-control {
+  display: inline-flex;
+  width: 130px;
+}
+
+.console-control div{
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
